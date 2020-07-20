@@ -74,9 +74,5 @@ public class employeeWage {
 			employeeWage companyname=new employeeWage(company,ratePerHour,days,maxHours);
 			System.out.println("Employee wage in company "+companyname.company+" is "+companyname.employeeWages());
 		}
-		/*employeeWage amazon=new employeeWage("Amazon",200,20,100);
-		System.out.println("Total wage for company "+amazon.company+" is "+amazon.employeeWages());
-		employeeWage microsoft=new employeeWage("Microsoft",150,25,120);
-		System.out.println("Total wage for company "+microsoft.company+" is "+microsoft.employeeWages());*/
 	}
 }
