@@ -1,6 +1,6 @@
 package employee;
 import java.util.*;
-public class employeeWage
+public class employeeWage implements iEmployeeWage
 {
 	int counter=0;
 	int numberOfCompanies;
